@@ -6,7 +6,7 @@ Current status of this workspace. Overwrite at the end of each session.
 
 - **Phase:** initialized (private bridge repo created)
 - **Last updated:** 2026-11-13
-- **Last touched by:** Bridge Bot (Grok Bot setup)
+- **Last touched by:** ChatGPT (GitHub connector check-in)
 
 ## In progress
 
@@ -29,7 +29,7 @@ Current status of this workspace. Overwrite at the end of each session.
 |----------|-----------|-------|
 | Bridge Bot (Grok Bot) | connected | GitHub CLI on bot computer |
 | Grok | pending | grok.com/connectors → GitHub |
-| ChatGPT | pending | Settings → Apps & Connectors → GitHub |
+| ChatGPT | connected | Private repository read verified 2026-11-13 via ChatGPT GitHub connector; this status commit tests direct write access. |
 | Gemini | pending | AI Studio GitHub sync |
 | Claude | pending | GitHub connector / MCP server |
 | Copilot | pending | built-in GitHub access |
