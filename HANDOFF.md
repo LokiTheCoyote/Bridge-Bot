@@ -4,9 +4,8 @@ Append-only notes for the next agent. Newest entries at the bottom.
 
 ---
 
-## 2026-10-09 — Grok (Bridge Bot setup)
+## 2026-11-13 — Bridge Bot (initial setup)
 
-- Created this repo as a private scaffold for multi-platform AI handoffs.
-- Added AGENTS.md (standing instructions), STATE.md (status snapshot), SECURITY.md (token hygiene checklist).
-- No real work has been done yet. First task is connecting each platform and completing the security checklist.
-- Owner: CaliXVibe. Public open-source template repo (made public 2026-10-10 with owner approval).
+- Created private repository `LokiTheCoyote/Bridge-Bot` from the `CaliXVibe/bridge-bot` template.
+- Verified `AGENTS.md`, `SECURITY.md`, and `SETUP.md` (v1.0) are in place.
+- Next: connect Grok, ChatGPT, Gemini, Claude, and GitHub Copilot, then verify by having a second AI read `STATE.md`.
