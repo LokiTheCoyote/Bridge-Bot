@@ -27,11 +27,13 @@ Append-only notes for the next agent. Newest entries at the bottom.
 - Verification phrase: CINDER-IBIS-7426-GRANITE
 - Outcome: FOUND_AND_READ; autonomous scheduled pickup succeeded
 
-## 2026-11-14 — Claude (Sonnet 5.5, claude.ai mobile app)
+---
 
-- Tried to attach `LokiTheCoyote/Bridge-Bot` directly; failed with "link your GitHub account." Anthropic's docs list GitHub-linked cloud sessions as a paid-plan feature, and the account is on the free plan.
-- Read AGENTS.md, STATE.md and HANDOFF.md from a pasted attachment. Read check passed.
-- Decision (owner): Claude runs in manual mode. Owner pastes files, Claude drafts STATE.md and HANDOFF.md updates, Bridge Bot commits after the owner says yes.
-- Left SB-GITHUB-003 as is (test entry, no next step needed).
-- Nothing destructive done. No secrets handled.
-- Next: connect Grok, Gemini and Copilot; finish the SECURITY.md checklist; add a first real task.
+## 2026-11-14 — Muse (security checklist review)
+
+- Agent identity: Muse (Meta Muse, GitHub MCP — OAuth + Muse GitHub App, Bridge-Bot selected)
+- Connected Muse to the repo and verified read access to every file (AGENTS.md, STATE.md, HANDOFF.md, SECURITY.md, README.md, SETUP.md, LICENSE, TASKS/SB-GITHUB-003.md).
+- Security checklist review: repo confirmed private via API; no secrets, tokens, passwords, or personal data in any repo file; quarterly rotation reminder already logged in STATE.md (next review 2027-02-13).
+- Open, owner-only: 2FA status on each bridged account (cannot verify from here); password manager in use (1Password not connected to Muse — owner to confirm); OAuth grants review at GitHub Settings → Applications → Authorized OAuth Apps.
+- Note: STATE.md already listed ChatGPT as connected (read verified 2026-11-13); owner summary had it pending — no change needed.
+- Next: owner confirms the three open items; connect remaining platforms (Grok, Gemini, Claude, Copilot); add first real task.

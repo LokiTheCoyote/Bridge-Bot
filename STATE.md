@@ -6,17 +6,17 @@ Current status of this workspace. Overwrite at the end of each session.
 
 - **Phase:** initialized (private bridge repo created)
 - **Last updated:** 2026-11-14
-- **Last touched by:** Claude (Sonnet 5.5, claude.ai mobile app; no direct GitHub access, drafted via paste)
+- **Last touched by:** Muse (Meta Muse, GitHub MCP)
 
 ## In progress
 
 - Connecting each AI platform to `LokiTheCoyote/Bridge-Bot`.
-- Claude is working in manual mode (see table): owner pastes files, Claude drafts updates, Bridge Bot commits after owner approval.
+- Security checklist review (2026-11-14): repo private and secret-free verified; 2FA, password manager, and OAuth grants review still open — owner-only.
 
 ## Next steps
 
-1. Connect GitHub on the remaining platforms (Grok, Gemini AI Studio, GitHub Copilot).
-2. Complete the security checklist in SECURITY.md.
+1. Owner confirms the three open security items: 2FA on each bridged account, password manager in use, OAuth grants reviewed (Settings → Applications → Authorized OAuth Apps).
+2. Connect GitHub on the remaining platforms (Grok, Gemini AI Studio, Claude, GitHub Copilot).
 3. Add your first real task and let an agent pick it up.
 
 ## Quarterly rotation reminder
@@ -32,5 +32,15 @@ Current status of this workspace. Overwrite at the end of each session.
 | Grok | pending | grok.com/connectors → GitHub |
 | ChatGPT | connected | Private repository read verified 2026-11-13 via ChatGPT GitHub connector; this status commit tests direct write access. |
 | Gemini | pending | AI Studio GitHub sync |
-| Claude | manual (paste via Bridge Bot) | Direct GitHub link attempted 2026-11-14 and failed; appears unavailable on the free plan. Claude read AGENTS.md, STATE.md and HANDOFF.md from a pasted attachment (second-AI read check passed). Bridge Bot pushes Claude's drafts after owner says yes. |
+| Claude | pending | GitHub connector / MCP server |
 | Copilot | pending | built-in GitHub access |
+| Muse | connected | GitHub MCP (OAuth + Muse GitHub App); read of all repo files verified 2026-11-14 |
+
+## Security checklist — reviewed 2026-11-14
+
+- [x] Repo is private (verified via API)
+- [x] No secrets, tokens, passwords, or personal data in any repo file (all files read 2026-11-14)
+- [x] Quarterly token rotation reminder logged (next review 2027-02-13)
+- [ ] 2FA enabled on every bridged account — owner to confirm
+- [ ] Password manager in use (1Password or Bitwarden) — owner to confirm; 1Password not connected to Muse
+- [ ] OAuth grants reviewed after setup — owner to review at Settings → Applications → Authorized OAuth Apps
