@@ -5,8 +5,8 @@ Current status of this workspace. Overwrite at the end of each session.
 ## Status
 
 - **Phase:** initialized (private bridge repo created)
-- **Last updated:** 2026-11-14
-- **Last touched by:** Muse (Meta Muse, GitHub MCP)
+- **Last updated:** 2026-11-15
+- **Last touched by:** Daemonymous (Grok Bot)
 
 ## In progress
 
@@ -31,7 +31,7 @@ Current status of this workspace. Overwrite at the end of each session.
 | Bridge Bot (Grok Bot) | connected | GitHub CLI on bot computer |
 | Grok | pending | grok.com/connectors → GitHub |
 | ChatGPT | connected | Private repository read verified 2026-11-13 via ChatGPT GitHub connector; this status commit tests direct write access. |
-| Gemini | pending | AI Studio GitHub sync |
+| Gemini | connected | read-only Drive via Gemini app; SB-GEMINI-002 partial PASS 2026-11-15; writes relayed via Simon/Daemonymous; GitHub not yet tested; AI Studio sync not recommended — see Drive doc Shared Brain — Research — Gemini Onboarding (SB-GEMINI-001) |
 | Claude | pending | GitHub connector / MCP server |
 | Copilot | pending | built-in GitHub access |
 | Muse | connected | GitHub MCP (OAuth + Muse GitHub App); read of all repo files verified 2026-11-14 |
